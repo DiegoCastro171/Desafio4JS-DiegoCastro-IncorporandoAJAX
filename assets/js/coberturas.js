@@ -1,6 +1,6 @@
 //BUSQUEDA COBERTURAS EN JSON
 const cardCoberturas = document.getElementById("coberturas");
-fetch('')
+fetch('https://github.com/DiegoCastro171/Desafio4JS-DiegoCastro-IncorporandoAJAX/blob/master/assets/js/coberturas.json')
 .then((datos) => datos.json())
 .then((card) => {
     card.forEach(valor => {
